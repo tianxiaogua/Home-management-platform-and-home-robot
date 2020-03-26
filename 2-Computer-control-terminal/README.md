@@ -12,5 +12,9 @@
 
 1、电脑上使用pc_robot_server文件和pc_keyboard_check文件来处理键盘扫描和tcp通信
 
-2、树莓派上使用raspi_contro_server和raspi_contro_main文件来和下位机驱动板进行串口通信，使用raspi_robot_client来和电脑上位机TCP服务器端进行通信
+2、树莓派上使用raspi_contro_client、raspi_contro_main和raspi_contral_serial文件来和下位机驱动板进行串口通信，使用raspi_robot_client来和电脑上位机TCP服务器端进行通信
+
+
+
+#### 在电脑上运行pc_keyboard_check.py文件，在树莓派上运行raspi_contro_client.py文件
 
